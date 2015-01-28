@@ -50,6 +50,7 @@ gboolean   nemo_can_thumbnail_internally        (NemoFile *file);
 gboolean   nemo_thumbnail_is_mimetype_limited_by_size
 						    (const char *mime_type);
 void       nemo_thumbnail_frame_image           (GdkPixbuf **pixbuf);
+void	   nemo_thumbnail_frame_video			(GdkPixbuf **pixbuf);
 GdkPixbuf *nemo_thumbnail_unframe_image         (GdkPixbuf  *pixbuf);
 GdkPixbuf *nemo_thumbnail_load_image            (const char *path,
 						     guint       base_size,

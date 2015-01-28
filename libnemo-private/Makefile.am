@@ -191,6 +191,7 @@ libnemo_private_la_SOURCES = \
 	nemo-undo-transaction.h \
 	nemo-undo.c \
 	nemo-undo.h \
+	nemo-video-mime-types.h \
 	nemo-vfs-directory.c \
 	nemo-vfs-directory.h \
 	nemo-vfs-file.c \
